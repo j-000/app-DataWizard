@@ -109,3 +109,5 @@ func ParseXML(xml XMLConfig) ([]ParsedData, error) {
 	}
 	return pdList, nil
 }
+
+// #TODO handle JSON parsing from source

@@ -26,6 +26,8 @@ type RequestParams struct {
 	Headers map[string]string
 }
 
+// TODO Handle SFTP imports
+
 func HTTP(args RequestParams, contentType string) (string, error) {
 	switch contentType {
 	case "xml":
